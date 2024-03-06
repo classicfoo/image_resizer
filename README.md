@@ -1,9 +1,9 @@
 # image_resizer
 
-This Python program allows you to resize and compress images to a smaller file size. The program takes an input image, resizes it to 200x200 pixels, and compresses it to reduce its file size. The output image is saved in the same directory as the original image, with "-min" appended to the filename.
+This Python program allows you to resize and compress images to a smaller file size. The program takes an input image, resizes it to 150x150 pixels, and compresses it to reduce its file size. The output image is saved in the same directory as the original image, with "-min" appended to the filename.
 
 Features:
-Resize: Images are resized to a fixed size of 200x200 pixels.
+Resize: Images are resized to a fixed size of 150x150 pixels.
 Compression: Images are compressed to reduce file size while maintaining visual quality.
 Input and Output: Input images can be in PNG, JPG, or JPEG format. Output images are saved with "-min" appended to the original filename.
 Ease of Use: Simply run the program in the directory containing the images you want to resize and compress.
