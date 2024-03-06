@@ -1,22 +1,29 @@
-# image_resizer
+# Image Resizer and Compressor
 
-This Python program allows you to resize and compress images to a smaller file size. The program takes an input image, resizes it to 150x150 pixels, and compresses it to reduce its file size. The output image is saved in the same directory as the original image, with "-min" appended to the filename.
+This Python script resizes and compresses images to a target file size of less than 10KB. It takes input images and resizes them to 150x150 pixels while compressing them until the resulting file size is under 10KB. The compressed images are saved in the same directory as the original images with "-min" appended to the filenames.
 
-Features:
-Resize: Images are resized to a fixed size of 150x150 pixels.
-Compression: Images are compressed to reduce file size while maintaining visual quality.
-Input and Output: Input images can be in PNG, JPG, or JPEG format. Output images are saved with "-min" appended to the original filename.
-Ease of Use: Simply run the program in the directory containing the images you want to resize and compress.
-How to Use:
-Install Python if you haven't already.
-Install the Pillow library using pip install Pillow.
-Save the provided Python script in the directory containing your images.
+## Requirements:
+Python 3.x
+Pillow library (pip install Pillow)
+
+## Usage:
+Save the provided Python script in the directory containing the images you want to resize and compress.
 Open a terminal or command prompt and navigate to the directory containing the Python script.
-Run the script using python image_resizer.pyw.
-The resized and compressed images will be saved in the same directory with "-min" appended to their filenames.
-Example:
+
+Run the script by double clicking on image_resizer.pyw
+
+The script will resize and compress all images in the directory, saving the resulting images with "-min" appended to their filenames.
+
+## Features:
+Image Resizing: Images are resized to 150x150 pixels to reduce dimensions.
+File Compression: Images are compressed to achieve a target file size of less than 10KB.
+Automatic Processing: Simply run the script in the directory containing the images, and it will process all eligible images.
+
+## Notes:
+Input images can be in PNG, JPG, or JPEG format.
+Output images are saved with "-min" appended to the original filenames.
+
+## Example:
 Suppose you have an image named example.jpg in your directory. Running the script will resize and compress the image, saving the result as example-min.jpg.
 
-Note:
-This program uses the Python Imaging Library (PIL), now known as Pillow, for image processing.
 Feel free to use, modify, and contribute to this project!
